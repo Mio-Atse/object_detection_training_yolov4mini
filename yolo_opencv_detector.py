@@ -36,7 +36,7 @@ class VideoProcessor:
             (220, 20, 60),  
             (178, 34, 34),  
             (139, 0, 0)     
-        ]
+        ] #change colors for your object accordingly
 
     def process_video(self):
         cap = cv.VideoCapture(self.video_path)
@@ -116,7 +116,7 @@ class VideoProcessor:
 video_path = "videos/video.mp4"
 cfg_file = "./yolov4-tiny/yolov4-tiny-custom.cfg"
 weights_file = "yolov4-tiny-custom_last.weights"
-class_names = ["red_circle"]
+class_names = ["red_circle"] #your labels comes here
 
 
 video_proc = VideoProcessor(video_path, (320, 320), cfg_file, weights_file, class_names)

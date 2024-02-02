@@ -1,4 +1,9 @@
-In this repository, we are going o learn how to train model on yolov4mini for your own objects from video file. 
+In this repository, we are going o learn how to train model on yolov4mini for your own objects from video file.
+Following codes mainly comes from github.com/moises-dias/yolo-opencv-detector with mainly changes in creating dataset, usage of video and FPS increase changes for realtime detection. Thanks to the moises-dias. You can find video of his work in following link.
+
+https://youtu.be/RSXgyDf2ALo?si=uhzuU-ZM-UmqqzEM
+
+
 ## Creating environment in Anaconda (Optional) 
 
 I recommend using environment for libraries. Go to https://www.anaconda.com/ and downloand Anaconda Navigator
